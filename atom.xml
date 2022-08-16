@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>七星瓢虫</title>
   
-  <subtitle>欢迎来到七星瓢虫工作坊</subtitle>
+  <subtitle>欢迎来到七星瓢虫工作坊!</subtitle>
   <link href="https://guet-ladybug.cn/atom.xml" rel="self"/>
   
   <link href="https://guet-ladybug.cn/"/>
@@ -10,7 +10,7 @@
   <id>https://guet-ladybug.cn/</id>
   
   <author>
-    <name>ANINEG</name>
+    <name>GUET-Ladybug</name>
     
   </author>
   
