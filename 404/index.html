@@ -156,6 +156,13 @@
         </a>
       </li>
       
+      <li>
+        <a href="/2020zhaoxin">
+          
+          <span>旧版网站</span>
+        </a>
+      </li>
+      
     </ul>
     
   </li>
@@ -292,6 +299,14 @@
                   </a>
                 </li>
               
+                <li>
+
+                  <a href="/2020zhaoxin " style="margin-left:75px">
+				  
+		          <span>旧版网站</span>
+                  </a>
+                </li>
+              
             </ul>
           
         </li>
@@ -323,7 +338,7 @@
                         404
                     </div>
                     <div class="description center-align">
-                        Oops～，我崩溃了！找不到你想要的页面 :(
+                        Oops～，我崩溃了！找不到你想要的页面了
                     </div>
                 </div>
             </div>
@@ -331,13 +346,10 @@
     </div>
 </div>
 
-
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    </script>
-
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
 
 
     <footer class="page-footer bg-color">
